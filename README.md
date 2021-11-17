@@ -6,9 +6,12 @@ Fernet guarantees that a message encrypted using it cannot be manipulated or rea
 
  for more datail please check the documentation ==> [Fernet Documentation](https://cryptography.io/en/latest/fernet/).
  
-=====>>
 
-=====>>=====>>=====>>=====>> 
+
+>>>>>
+>>>>>>>>>> 
+>>>>>>>>>>>>>>> 
+
 
 ## Idea of script
 
