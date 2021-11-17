@@ -8,8 +8,10 @@ Fernet guarantees that a message encrypted using it cannot be manipulated or rea
  
 =====>>
 
-=====>>=====>>=====>>=====>>=====>>=====>> **idea of script** <<=====<<=====<<=====<<=====<<=====<<=====<<=====
+=====>>=====>>=====>>=====>>=====>>=====>> **idea of script**
 
-idea of the script and that when we have a file that contains login credentials \n
-example in the field of automation network, we have files that contain login credentials via ssh for cisco devices\n
+idea of the script and that when we have a file that contains login credentials 
+
+example in the field of automation network, we have files that contain login credentials via ssh for cisco devices
+
 therefore it is better not to keep the files in clear text
