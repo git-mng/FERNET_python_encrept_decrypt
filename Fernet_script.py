@@ -16,6 +16,7 @@ def keyz():
 def load_key():
     return open('keys.key', 'rb').read()
 
+#encrypt file
 
 with open(input_file, 'rb') as filo:
     out = filo.read()
@@ -32,6 +33,9 @@ with open(output_file, 'wb') as filesave:
 with open(output_file, 'rb') as f:
     data = f.read()
 
+# decrypt file 
+    
+    
 try:
     fernet = Fernet(key)
     decrypted = fernet.decrypt(data)
