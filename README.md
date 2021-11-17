@@ -19,10 +19,19 @@ Example:  in the field of automation network, we have files that contain login c
 therefore it is better not to keep the files in clear text
 
 
+## Installation
+
+Use the package manager [pip](https://pypi.org/project/fernet/) to install foobar.
+
+```bash
+pip install fernet
+```
+
+
 ## Usage
 
 the script from two operations:
 
-**first =  one decrypt the file \/ **two = decrypt the file 
+First = decrypt the file \/ Two = decrypt the file 
 
 **note** we have to keep the key to be able to decroipt the file
