@@ -37,4 +37,4 @@ the script from two operations:
 
 First = decrypt the file  -- Two = decrypt the file 
 
-**note** we have to keep the key to be able to decroipt the file
+**note** we have to keep the key to be able to decrypt the file
