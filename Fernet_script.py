@@ -1,22 +1,22 @@
 from pprint import pprint
 from cryptography.fernet import Fernet, InvalidToken
 
-
 input_file = 'business'
-output_file = 'outpitfile'
+output_file = 'dumpbusness'
 
 
 def keyz():
-    key = Fernet.generate_key()
+    key_ = Fernet.generate_key()
     with open('keys.key', 'wb') as damage:
         damage.write(key)
-        pprint(damage.write(key))
+        pprint(damage.write(key_))
 
 
 def load_key():
     return open('keys.key', 'rb').read()
 
-#encrypt file
+
+# encrypt file
 
 with open(input_file, 'rb') as filo:
     out = filo.read()
@@ -29,20 +29,17 @@ with open(output_file, 'wb') as filesave:
     filesave.write(dropkey)
     pprint(filesave.write(dropkey))
 
-
 with open(output_file, 'rb') as f:
     data = f.read()
 
-# decrypt file 
-    
-    
+# decrypt file
+
 try:
     fernet = Fernet(key)
     decrypted = fernet.decrypt(data)
 
-    with open('clearfile', 'wb') as fs:
+    with open('busnessdump', 'wb') as fs:
         fs.write(decrypted)
-
 
 except InvalidToken as e:
     print("Invalid Key - Unsuccessfully decrypted")
