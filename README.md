@@ -8,6 +8,6 @@ Fernet guarantees that a message encrypted using it cannot be manipulated or rea
  
 =====>>
 
-=====>>=====>>=====>>=====>>=====>>=====>> #idea of script <<=====<<=====<<=====<<=====<<=====<<=====<<=====
+=====>>=====>>=====>>=====>>=====>>=====>> **idea of script** <<=====<<=====<<=====<<=====<<=====<<=====<<=====
 
 
