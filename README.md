@@ -23,6 +23,6 @@ therefore it is better not to keep the files in clear text
 
 the script from two operations:
 
-**first=  one decrypt the file \/ **two= decrypt the file 
+**first =  one decrypt the file \/ **two = decrypt the file 
 
 **note** we have to keep the key to be able to decroipt the file
