@@ -1,4 +1,4 @@
-# FERNET python encrypt decrypt file
+# FERNET encrypt/\decrypt file
 
 Fernet (symmetric encryption)¶
 Fernet guarantees that a message encrypted using it cannot be manipulated or read without the key. Fernet is an implementation of symmetric (also known as “secret key”) authenticated cryptography. Fernet also has support for implementing key rotation via MultiFernet.
@@ -8,9 +8,9 @@ Fernet guarantees that a message encrypted using it cannot be manipulated or rea
  
 
 
->>>>>
->>>>>>>>>> 
->>>>>>>>>>>>>>> 
+>>>>>/
+>>>>>>>>>>/ 
+>>>>>>>>>>>>>>>/ 
 
 
 ## Idea of script
