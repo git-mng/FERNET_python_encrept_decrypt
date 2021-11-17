@@ -21,7 +21,7 @@ therefore it is better not to keep the files in clear text
 
 ## Installation
 
-Use the package manager [pip](https://pypi.org/project/fernet/) to install foobar.
+Use the package manager [pip](https://pypi.org/project/fernet/) to install fernet.
 
 ```bash
 pip install fernet
