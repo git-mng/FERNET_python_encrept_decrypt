@@ -8,7 +8,7 @@ Fernet guarantees that a message encrypted using it cannot be manipulated or rea
  
 =====>>
 
-=====>>=====>>=====>>=====>> **idea of script**
+=====>>=====>>=====>>=====>> ** Idea of script**
 
 idea of the script and that when we have a file that contains login credentials 
 
@@ -16,6 +16,8 @@ Example:  in the field of automation network, we have files that contain login c
 
 therefore it is better not to keep the files in clear text
 
+
+## Usage
 
 the script from two operations:
 
